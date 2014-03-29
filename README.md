@@ -1,4 +1,4 @@
-# Packer Example - CentOS 6.5 minimal Vagrant Box
+# Packer Example - CentOS 6.5 minimal Vagrant Box using Ansible provisioner
 
 This example build configuration installs and configures CentOS 6.5 x86_64 minimal using Ansible, and then generates a Vagrant box file for use with VirtualBox.
 
