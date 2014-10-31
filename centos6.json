@@ -61,7 +61,7 @@
   ],
   "post-processors": [
     {
-      "output": "builds/VirtualBox-centos6.box",
+      "output": "builds/VirtualBox-centos66.box",
       "type": "vagrant"
     }
   ]
