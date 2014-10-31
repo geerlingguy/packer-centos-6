@@ -1,6 +1,8 @@
-# Packer Example - CentOS 6.5 minimal Vagrant Box using Ansible provisioner
+# Packer Example - CentOS 6 minimal Vagrant Box using Ansible provisioner
 
-This example build configuration installs and configures CentOS 6.5 x86_64 minimal using Ansible, and then generates a Vagrant box file for use with VirtualBox.
+**Current CentOS Version Used**: 6.6
+
+This example build configuration installs and configures CentOS 6 x86_64 minimal using Ansible, and then generates a Vagrant box file for use with VirtualBox.
 
 The example can be modified to use more Ansible roles, plays, and included playbooks to fully configure (or partially) configure a box file suitable for deployment for development environments.
 
@@ -21,7 +23,7 @@ If you have the role installed somewhere besides the default roles path on your 
 
 Make sure all the required software (listed above) is installed, then cd to the directory containing this README.md file, and run:
 
-    $ packer build centos65.json
+    $ packer build centos6.json
 
 After a few minutes, Packer should tell you the box was generated successfully.
 

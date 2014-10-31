@@ -30,11 +30,11 @@
       "headless": true,
       "http_directory": "http",
       "iso_urls": [
-        "iso/CentOS-6.5-x86_64-minimal.iso",
-        "http://centos.mirrors.hoobly.com/6.5/isos/x86_64/CentOS-6.5-x86_64-minimal.iso"
+        "iso/CentOS-6.6-x86_64-minimal.iso",
+        "http://centos.mirrors.hoobly.com/6.6/isos/x86_64/CentOS-6.6-x86_64-minimal.iso"
       ],
       "iso_checksum_type": "md5",
-      "iso_checksum": "0d9dc37b5dd4befa1c440d2174e88a87",
+      "iso_checksum": "eb3c8be6ab668e6d83a118323a789e6c",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -42,7 +42,7 @@
       "shutdown_command": "echo 'vagrant'|sudo -S /sbin/halt -h -p",
       "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
       "virtualbox_version_file": ".vbox_version",
-      "vm_name": "packer-centos-6.5-x86_64",
+      "vm_name": "packer-centos-6.6-x86_64",
       "vboxmanage": [
         [
           "modifyvm",
@@ -61,7 +61,7 @@
   ],
   "post-processors": [
     {
-      "output": "builds/VirtualBox-centos65.box",
+      "output": "builds/VirtualBox-centos6.box",
       "type": "vagrant"
     }
   ]
