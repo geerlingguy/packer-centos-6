@@ -5,7 +5,7 @@
 
   pre_tasks:
     - name: Ensure Ansible dependencies are installed.
-      yum: pkg=libselinux-python state=installed
+      yum: name=libselinux-python state=installed
 
   roles:
     - geerlingguy.nfs
