@@ -71,7 +71,7 @@
       "http_directory": "http",
       "iso_urls": [
         "iso/CentOS-6.7-x86_64-minimal.iso",
-        "http://centos.mirrors.hoobly.com/6.6/isos/x86_64/CentOS-6.7-x86_64-minimal.iso"
+        "http://centos.mirrors.hoobly.com/6.7/isos/x86_64/CentOS-6.7-x86_64-minimal.iso"
       ],
       "iso_checksum_type": "md5",
       "iso_checksum": "9381a24b8bee2fed0c26896141a64b69",
