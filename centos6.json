@@ -31,11 +31,11 @@
       "headless": true,
       "http_directory": "http",
       "iso_urls": [
-        "iso/CentOS-6.7-x86_64-minimal.iso",
-        "http://centos.mirrors.hoobly.com/6.7/isos/x86_64/CentOS-6.7-x86_64-minimal.iso"
+        "iso/CentOS-6.8-x86_64-minimal.iso",
+        "http://mirrors.liquidweb.com/CentOS/6.8/isos/x86_64/CentOS-6.8-x86_64-minimal.iso"
       ],
-      "iso_checksum_type": "md5",
-      "iso_checksum": "9381a24b8bee2fed0c26896141a64b69",
+      "iso_checksum_type": "sha256",
+      "iso_checksum": "ec49c297d484b9da0787e5944edc38f7c70f21c0f6a60178d8e9a8926d1949f4",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -70,11 +70,11 @@
       "headless": true,
       "http_directory": "http",
       "iso_urls": [
-        "iso/CentOS-6.7-x86_64-minimal.iso",
-        "http://centos.mirrors.hoobly.com/6.7/isos/x86_64/CentOS-6.7-x86_64-minimal.iso"
+        "iso/CentOS-6.8-x86_64-minimal.iso",
+        "http://mirrors.liquidweb.com/CentOS/6.8/isos/x86_64/CentOS-6.8-x86_64-minimal.iso"
       ],
-      "iso_checksum_type": "md5",
-      "iso_checksum": "9381a24b8bee2fed0c26896141a64b69",
+      "iso_checksum_type": "sha256",
+      "iso_checksum": "ec49c297d484b9da0787e5944edc38f7c70f21c0f6a60178d8e9a8926d1949f4",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
