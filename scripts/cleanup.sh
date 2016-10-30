@@ -1,7 +1,6 @@
 #!/bin/bash -eux
 
 # Remove Ansible and its dependencies.
-pip freeze | grep -v "^-e" | xargs pip uninstall -y
 yum -y remove git python-setuptools gcc python-devel openssl-devel
 
 # Zero out the rest of the free space using dd, then delete the written file.
