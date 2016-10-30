@@ -8,8 +8,8 @@ Vagrant.configure("2") do |config|
   # VMware Fusion.
   # `vagrant up vmware --provider=vmware_fusion`
   config.vm.define "vmware" do |vmware|
-    vmware.vm.hostname = "ubuntu1204-vmware"
-    vmware.vm.box = "file://builds/vmware-ubuntu1204.box"
+    vmware.vm.hostname = "centos6-vmware"
+    vmware.vm.box = "file://builds/vmware-centos6.box"
     vmware.vm.network :private_network, ip: "192.168.3.2"
 
     config.vm.provider :vmware_fusion do |v, override|
@@ -24,8 +24,8 @@ Vagrant.configure("2") do |config|
   # VirtualBox.
   # `vagrant up virtualbox --provider=virtualbox`
   config.vm.define "virtualbox" do |virtualbox|
-    virtualbox.vm.hostname = "virtualbox-ubuntu1204"
-    virtualbox.vm.box = "file://builds/virtualbox-ubuntu1204.box"
+    virtualbox.vm.hostname = "virtualbox-centos6"
+    virtualbox.vm.box = "file://builds/virtualbox-centos6.box"
     virtualbox.vm.network :private_network, ip: "172.16.3.2"
 
     config.vm.provider :virtualbox do |v|
